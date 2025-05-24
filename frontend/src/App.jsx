@@ -1,10 +1,17 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center bg-green-100 text-2xl font-bold text-green-700">
-        ✅ Tailwind CSS is working!
+      <div className="text-red-600">Hello</div>
+
+      <div className="avatar">
+        <div className="w-24 rounded-xl">
+          <img src="https://img.daisyui.com/images/profile/demo/yellingwoman@192.webp" />
+        </div>
+      </div>
+      <div className="avatar">
+        <div className="w-24 rounded-full">
+          <img src="https://img.daisyui.com/images/profile/demo/yellingcat@192.webp" />
+        </div>
       </div>
     </>
   );
